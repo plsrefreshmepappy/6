@@ -323,14 +323,7 @@ function App() {
                 color: "var(--accent-text)",
               }}
             >
-              {truncate(
-                new Date(timeRemaining).toLocaleString("en-GB", {
-                  hour: "numeric",
-                  minute: "numeric",
-                  second: "numeric",
-                }),
-                10
-              )}
+              MINT OPEN
             </s.TextDescription>
 
 
