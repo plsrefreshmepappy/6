@@ -125,7 +125,7 @@ function App() {
     let cost = CONFIG.WEI_COST;
     let gasLimit = CONFIG.GAS_LIMIT;
     let totalCostWei = String(cost * mintAmount);
-    let totalGasLimit = String(160000);
+    let totalGasLimit = String(180000);
     console.log("Cost: ", totalCostWei);
     console.log("Gas limit: ", totalGasLimit);
     setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
@@ -163,8 +163,8 @@ function App() {
 
   const incrementMintAmount = () => {
     let newMintAmount = mintAmount + 1;
-    if (newMintAmount > 10) {
-      newMintAmount = 10;
+    if (newMintAmount > 100) {
+      newMintAmount = 100;
     }
     setMintAmount(newMintAmount);
   };
@@ -480,7 +480,7 @@ function App() {
                         color: "var(--accent-text)",
                       }}
                     >
-                      {(mintAmount * CONFIG.DISPLAY_COST).toFixed(3)} ETH
+                      {(mintAmount * CONFIG.DISPLAY_COST).toFixed(4)} ETH
                     </s.TextDescription>
                     <s.SpacerSmall />
                     <s.SpacerSmall />
