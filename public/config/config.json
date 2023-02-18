@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x3995b3Eb28Fe088725F050806c0DdA4389b22323",
+  "SCAN_LINK": "https://etherscan.io/address/0x3995b3Eb28Fe088725F050806c0DdA4389b22323",
+  "NETWORK": {
+    "NAME": "Ethereum",
+    "SYMBOL": "ETH",
+    "ID": 1
+  },
+  "NFT_NAME": "The Manity by Holo",
+  "SYMBOL": "MANITY",
+  "MAX_SUPPLY": 888,
+  "WEI_COST": 75000000000000000,
+  "DISPLAY_COST": 0.07500000,
+  "GAS_LIMIT": 140000,
+  "MARKETPLACE": "Opensea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/the-manity-by-holo",
+  "SHOW_BACKGROUND": true
+}
